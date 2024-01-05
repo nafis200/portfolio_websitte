@@ -1,6 +1,8 @@
 nav{
     display:flex;
     justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -38,4 +40,18 @@ nav a{
     font-style: normal;
     font-weight: 700;
     padding: 18px 36px;
+}
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner .profile{
+    width: 500px;
 }
